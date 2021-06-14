@@ -1,0 +1,392 @@
+/*Éléments principaux de la page */
+
+html,body {
+    font-family: Raleway;
+}
+.colorBleu {
+    color: #0065fc;
+}
+
+.colorBleuClair {
+    color: #deebff
+}
+
+.colorGris {
+    color: #f2f2f2;
+}
+
+.bacBleu {
+    background-color: #0065fc;
+}
+
+.bacBleuClair {
+    background-color: #deebff
+}
+
+.bacGris {
+    background-color: gray;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+
+#logo img {
+    width: 120px;
+    height: 50px;
+}
+
+/* Navigation */
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+
+}
+nav li {
+    margin-right: 70px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+/*Bloc Titre h1 */
+
+.texteGras {
+    font-weight: bold;
+}
+
+.icon-location {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    height: 70px;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bordureSearch {
+    width: 400px;
+    border-radius: 10px;
+    border-color: gray;
+    border: 0.5px;
+
+}
+
+.bordureNone {
+    border: none;
+}
+
+.iconSize {
+    height: 54px;
+    width: 54px;
+    border-radius: 10px 0 0 10px;
+    background-color: rgb(231, 228, 228);
+}  
+
+.recherche {
+    display: flex;
+    height: 51px;
+    width: 218px;
+    font-size: 18px;
+    background-color: white;
+    font-weight: bold;
+    border: 5px;
+    border-color: rgb(167, 166, 166);
+}
+
+.buttonSearch {
+    height: 53px;
+    width: 500px;
+    background-color: #0065fc;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    border : none;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    width: 300px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.paddingSearch {
+    padding-left: 20px;
+}
+
+     /* Les Filtres */
+
+.filtre ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.filtre li {
+    margin-right: 25px;
+}
+
+.filtre {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.margFiltre {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.filtreTexteIcons {
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.filtreTexteIcons:hover > .filtreTexte {
+    color: #0065fc
+}
+
+.filtreTexIcons:hover > .filtreIcons {
+    color: white;
+    background-color: #deebff;
+    cursor: pointer;
+}
+
+.filtreTexte {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+
+.filtreIcons {
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+    font-weight: bold;
+    border: bold;
+}
+
+/* Mage Filtre Info */ 
+
+.infoFiltre {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.infoIcon {
+    border-radius: 21px;
+    width: 31px;
+    height: 31px;
+    background-color: #eff0f1;
+    color: #0065fc;
+    display: flex;
+    justify-content: flex-start;
+    border: bold;
+}
+
+.margFiltreInfo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+                       /* Section Hébergements */
+
+/* Hébergements à Marseille */
+
+
+.flexColumnCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexColumnAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flexColumnBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.imgHebergements1 {
+    background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgHebergements2 {
+    background-image: url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgHebergements3 {
+    background-image: url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgHebergements4 {
+    background-image: url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgHebergements5 {
+    background-image: url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgHebergements6 {
+    background-image: url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.groupeA {
+    display: flex;
+    width: 100%;
+    padding-right: 20px;
+    border-radius: 15px 15px; 0 0;
+
+}
+
+.bloc {
+    background-color: rgb(240, 238, 238) ;
+}
+
+#salle1 {
+    width: 70%;
+}
+
+/* Les Populaires */
+
+.blocPopulaire2 {
+    margin-bottom: 20px;
+}
+
+.cubeDetailsPolulaires {
+    width: 60px;
+    padding-left: 5%;
+}
+
+.cubePopulaires {
+    background-color: white;
+    height: 170px;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+
+}
+
+.blocHebergements {
+    width: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.blocPopulaires {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 28%;
+    margin-left: 2%;
+    display: flex;
+    
+}
+
+.imgPopulaire1{
+    background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 160px;
+    border-radius: 15px 0 0 15;
+}
+
+.imgPopulaire2{
+    background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 82%;
+    height: 160px;
+    border-radius: 15px 0 0 15;
+}
+
+.imgPopulaire3{
+    background-image: url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 86%;
+    height: 160px;
+    border-radius: 15px 0 0 15;
+}
+
+.nom-dhoteldusoleil {
+    width: 30%;
+    height: 20px;
+}
+
+.prix-dhoteldusoleil {
+
+}
+
