@@ -507,21 +507,37 @@ nav a {
     flex-direction: column;
     justify-content: space-between
     
+    
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.footerlink {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
     height: 200px;
     margin-top: 100px;
+    width: 100%;
+   
 }
 
 .margeBlocFoot1 {
-    margin-left: 15%;
+    margin-left: 1%;
     flex-direction: column;
+    justify-content: space-between
     
 }
 
 .margeBlocFoot3 {
-    margin-right: 15%;
+    margin-right: 1%;
     flex-direction: column;
     justify-content: space-between
     
