@@ -25,7 +25,6 @@ html,body {
 
 .bacGris {
     background-color: gray;
-    display: flex;
 }
 
 /* Header */
@@ -107,16 +106,15 @@ nav a {
 
 .iconSize {
     height: 54px;
-    width: 56px;
+    width: 54px;
     border-radius: 10px 0 0 10px;
     background-color: rgb(231, 228, 228);
-    font-size: 20px;
 }  
 
 .recherche {
     display: flex;
-    height: 50px;
-    width: 230px;
+    height: 51px;
+    width: 218px;
     font-size: 18px;
     background-color: white;
     font-weight: bold;
@@ -382,8 +380,7 @@ nav a {
 
 .sectionactivite {
     display: flex;
-    justify-content: space-between;
-    
+    align-content: flex-start
     
 }
 
@@ -400,7 +397,7 @@ nav a {
 .blocActivites2356 {
     width: 23%;
     height: 600px;
-    
+
 
 }
 
@@ -412,6 +409,8 @@ nav a {
     height: 530px;
     margin-right: 2%;
     border-radius: 15px 15px 0 0; 
+    display: flex;
+    flex-direction: column;
 }
 
 .imgActivites2 {
@@ -422,8 +421,7 @@ nav a {
     height: 250px;
     margin-right: 2%;
     border-radius: 15px 15px 0 0; 
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .imgActivites3 {
@@ -434,8 +432,7 @@ nav a {
     height: 150px;
     margin-right: 2%;
     border-radius: 15px 15px 0 0; 
-    display: flex;
-    flex-direction: column;
+   
 }
 
 .imgActivites4 {
@@ -445,8 +442,7 @@ nav a {
     width: 310px;
     height: 530px;
     border-radius: 15px 15px 0 0; 
-    display: flex;
-    flex-direction: column;
+    
 }
 .imgActivites5 {
     background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
@@ -503,18 +499,21 @@ nav a {
 
 .tailleBlocFoot {
     height: 150px;
-    width: 600px;
-    flex-direction: column;
-    justify-content: space-between
-    
+}
+
+.footer {
+    height: 300px;
+    margin-top: 100px;
     
 }
 
-.footerFlex {
-    display: flex;
-    justify-content: space-between;
-    
-    
+.margeBlocFoot1 {
+    margin-left: 1%;
+    justify-content: flex-start;
+}   
+
+.margeBlocFoot3 {
+    margin-right: 15%;
 }
 
 .footerlink {
@@ -522,23 +521,8 @@ nav a {
     flex-direction: column;
 }
 
-.footer {
-    height: 200px;
-    margin-top: 100px;
-    width: 100%;
-   
-}
-
-.margeBlocFoot1 {
-    margin-left: 1%;
-    flex-direction: column;
-    justify-content: space-between
-    
-}
-
-.margeBlocFoot3 {
-    margin-right: 1%;
-    flex-direction: column;
-    justify-content: space-between
+.footerFlex {
+    display: flex;
+    justify-content: space-between;
     
 }
