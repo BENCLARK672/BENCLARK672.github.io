@@ -27,6 +27,10 @@ html,body {
     background-color: gray;
 }
 
+.decorationNone {
+    text-decoration: none;
+}
+
 /* Header */
 header {
     display: flex;
@@ -95,7 +99,7 @@ nav a {
     width: 400px;
     border-radius: 10px;
     border-color: gray;
-    border: 0.5px;
+    
 
 }
 
@@ -170,6 +174,7 @@ nav a {
     border-radius: 30px;
     margin-right: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .filtreTexteIcons:hover > .filtreTexte {
@@ -179,7 +184,7 @@ nav a {
 .filtreTexIcons:hover > .filtreIcons {
     color: white;
     background-color: #0065fc;
-    cursor: pointer;
+    
 }
 
 .filtreTexte {
@@ -655,9 +660,10 @@ nav a {
 }
 
 .footer {
-    height: 122px;
-    margin-top: 50px;
+    height: 150px;
+    margin-top: 40px;
     background-color: rgb(240, 238, 238) ;
+    margin-left: 10px;
     
 }
 
@@ -679,4 +685,13 @@ nav a {
     display: flex;
     justify-content: space-between;
     
+}
+
+.lienFoot {
+    color: black;
+}
+
+.divLienFoot {
+    height: 30px;
+   
 }
