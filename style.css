@@ -173,6 +173,8 @@ list-style-type: none;
 display: flex;
                                         
 }
+
+
 nav li {
 margin-right: 70px;
 }
@@ -182,8 +184,8 @@ nav a {
     
 }
 
-.bordureNav {
-    border: 2px solid blue;
+.sizeLien > .bordureNav {
+    background: #0065fc;
 }
 
   /* PARTIE 2 - BLOC TITRE h1*/
@@ -283,6 +285,7 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 
 .contenerHebergements a{
@@ -296,12 +299,13 @@ nav a {
     width: 100%;
     padding-right: 20px;
     border-radius: 15px 15px; 0 0;
-
+    
 }
 
 .bloc {
     background-color: rgb(240, 238, 238) ;
     margin-top: 30px;
+    
 }
 
 
@@ -408,12 +412,13 @@ nav a {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px
+    
 }
 
 .les-plus-populaires-img img {
     border-radius: 20px 0 0 15px;
     min-width: 80px;
-    max-height: 135px;
+    height: 135px;
     object-fit: cover;
     width: 150px;
     margin-right: 20px;
