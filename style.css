@@ -16,6 +16,13 @@ a {
     
 }
 
+
+.hostingMainCardGradeIconEmpty {
+    color: #D9D9D9;
+}
+
+
+
 .introduction {
     color: black;
     font-weight: bold;
@@ -299,8 +306,9 @@ nav a {
     border-radius: 20px;
     border: 5px solid transparent;
     box-shadow: 0px 0px 6px 0px #0000002e;
-    grid-gap: 25px;
+    grid-gap: 20px;
     padding: 0 0 0 0;  
+    margin-bottom: 20px;
 }
 
 .lacasedemarseille {
@@ -308,28 +316,28 @@ nav a {
 	padding-right: 7px;
 	padding-top: 7px;
 	width: 100%;
-	height: 242px;
+	height: 210px;
 	background-color: white;
 	border-radius: 20px 20px 20px;
 	object-fit: cover;
 	object-position: 60% 80%;
 	box-shadow: 1px 1px 15px rgb(111 111 111);
-
-
+    padding-bottom: 30px;
 }
+
+
+.lacasedemarseille .casedetexte {
+    width: 100%;
+    height: 95px;
+    border-radius: 20px 0 0 15px;
+    margin: 5px;
+}
+
 
 .lacasedemarseille:hover {
     cursor: pointer;
     transform: scale(1.05);
 }
-
-
-.casedetexte {
-    width: 100%;
-    height: 95px;
-    border-radius: 20px 0 0 15px;
-}
-
 
 
 .contenerHebergements a{
@@ -349,6 +357,7 @@ nav a {
 .bloc {
     background-color: rgb(240, 238, 238) ;
     margin-top: 30px;
+    margin-bottom: 80px;
     
 }
 
@@ -377,7 +386,7 @@ nav a {
     width: 70%;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 10px
+    border-radius: 10px  
     
 }
 
@@ -489,6 +498,7 @@ nav a {
     width: 28%;
     border-radius: 10px;
     display: block;
+    margin-bottom: 80px;
   
 }
 
