@@ -302,7 +302,10 @@ nav a {
     padding: 0 0 0 0;  
 }
 
-
+.lacasedemarseille:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
 
 
 .casedetexte {
@@ -442,6 +445,11 @@ nav a {
     margin-bottom: 40px;
 }
 
+.cubePopulaires:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .les-plus-populaires-img img {
     border-radius: 20px 0 0 15px;
     min-width: 80px;
@@ -483,6 +491,11 @@ nav a {
     margin: 10px;
 }
 
+.bloc1:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+
 .sectionactivite  figure {
     display: flex;
     flex-wrap: wrap;
@@ -520,6 +533,7 @@ nav a {
     margin: 10px;
 }
 
+
 .sectionactivite  figure {
     display: flex;
     flex-wrap: wrap;
@@ -533,10 +547,9 @@ nav a {
     width: 100%;
     height: 100px;
     border-radius: 20px 20px 0 0px;
-    object-fit: cover;
-
-    
+    object-fit: cover;  
 }
+
 
 .bloc2 img {
     display: flex;
@@ -548,6 +561,21 @@ nav a {
 .fortdePomegues {
     margin-bottom: 40px;
     display:block;
+}
+
+.fortdePomegues:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.ilesdufrioul {
+    margin-bottom: 40px;
+    display:block;
+}
+
+.ilesdufrioul:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 
@@ -565,6 +593,11 @@ nav a {
     margin: 10px;
 }
 
+.bloc3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
 
 .sectionactivite  figure {
     display: flex;
@@ -601,7 +634,6 @@ nav a {
 }
 
 
-
 .sectionactivite  figure {
     display: flex;
     flex-wrap: wrap;
@@ -614,14 +646,31 @@ nav a {
     display:block;
 }
 
+.notredame:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.parclongchamps {
+    margin-bottom: 40px;
+    display:block;
+}
+
+.parclongchamps:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 
 .bloc4 img {
     width: 100%;
     height: 100px;
     border-radius: 20px 20px 0 0px;
     object-fit: cover;
+
+    }
     
-}
+
 
 .sectionactivite figcaption {
     padding-left: 5px;
