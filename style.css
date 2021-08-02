@@ -47,6 +47,14 @@ a {
     width: 45%;
 }
 
+.colorLien13 {
+    color: blue;
+}
+
+.colorLien2 {
+    color: black;
+}
+
 .colorBleuClair {
     color: #deebff
 }
@@ -102,6 +110,11 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+
+.flexBetween2 {
+    display:flex;
+    justify-content: flex-end;
+}
 .bordureSearch {
     width: 400px;
     border-radius: 10px;
@@ -117,8 +130,7 @@ a {
     height: 54px;
     width: 54px;
     border-radius: 10px 0 0 10px;
-    background-color: rgb(231, 228, 228);
-    
+    background-color: rgb(231, 228, 228);  
 }  
 
 .recherche {
@@ -159,15 +171,7 @@ a {
     padding-left: 20px;
 }
 
-
     /* PARTIE 1 - HEADER */
-
- header 
- {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
- }
                                         
 #logo {
 display: flex;
@@ -182,13 +186,22 @@ height: 50px;
 }
                                         
 /* Navigation */
+
+.bordureNav {
+    border: 2px solid blue;
+}
+
+.flexCentre2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
                                         
 nav ul {
 list-style-type: none;
 display: flex;
                                         
 }
-
 
 nav li {
 margin-right: 70px;
@@ -207,11 +220,6 @@ nav a {
 
      /* Les Filtres */
 
-.filtre ul {
-    list-style-type: none;
-    display: flex;   
-}
-
 .filtre li {
     margin-right: 25px;
 }
@@ -219,8 +227,6 @@ nav a {
 .filtre {
     display: flex;
     align-items: center;
-   
-
 }
 
 .margFiltre {
@@ -235,18 +241,17 @@ nav a {
     margin-right: 20px;
     font-weight: bold;
     cursor: pointer;
+    background: white;
+    transition-duration: 0.25s;
 }
 
 .filtreTexteIcons:hover > .filtreTexte {
     background-color: rgb(228, 246, 252);
-    
-
 }
 
 .filtreTexIcons:hover > .filtreIcons {
     color: white;
-    background-color: #0065fc;
-    
+    background-color: #0065fc;   
 }
 
 .filtreTexte {
@@ -262,7 +267,7 @@ nav a {
     width: 52px;
     height: 52px;
     color: #0065fc;
-    background-color: #deebff;
+    background-color:  #deebff;
     font-weight: bold;
     border: bold;
 }
@@ -306,7 +311,7 @@ nav a {
     border-radius: 20px;
     border: 5px solid transparent;
     box-shadow: 0px 0px 6px 0px #0000002e;
-    grid-gap: 20px;
+    grid-gap: 30px;
     padding: 0 0 0 0;  
     margin-bottom: 20px;
 }
@@ -330,7 +335,7 @@ nav a {
     width: 100%;
     height: 95px;
     border-radius: 20px 0 0 15px;
-    margin: 5px;
+    margin: auto;
 }
 
 
