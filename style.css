@@ -188,7 +188,29 @@ height: 50px;
 /* Navigation */
 
 .bordureNav {
-    border-top: 2px solid blue;
+    border-top: 3px solid blue;
+    
+}
+
+.bordureNav:hover > a {
+    border-top: 3px solid transparent;
+    cursor: pointer;
+    
+}
+
+.bordureNav:hover > a {
+    color: #0065fc;
+    
+}
+
+
+
+.sizeNav {
+    height: 100px;
+}
+
+.marglogo {
+    margin-bottom: 7px;
 }
 
 .flexCentre2 {
@@ -197,24 +219,11 @@ height: 50px;
     align-items: flex-end;
 }
                                         
-nav ul {
-list-style-type: none;
-display: flex;
-                                        
-}
-
-nav li {
-margin-right: 70px;
-}
-                                        
-nav a {
-    text-decoration: none;
-    
-}
 
 .sizeLien > .bordureNav {
     background: #0065fc;
 }
+
 
   /* PARTIE 2 - BLOC TITRE h1*/
 
