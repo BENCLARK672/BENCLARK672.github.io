@@ -188,7 +188,7 @@ height: 50px;
 /* Navigation */
 
 .bordureNav {
-    border: 2px solid blue;
+    border-top: 2px solid blue;
 }
 
 .flexCentre2 {
