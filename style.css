@@ -5,6 +5,10 @@ html,body
     font-family: Raleway; Sans-serif;
 }
 
+* {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -13,6 +17,7 @@ a {
 .etoiles {
     color: #0065fc;
     display: block;
+    margin-bottom: 10px;
     
 }
 
@@ -159,6 +164,7 @@ a {
     margin-right: 2px;
     margin-left: 2px;
     border: 1px gray solid;
+
 }
 
 .buttonSearch:hover {
@@ -190,9 +196,10 @@ height: 50px;
 .bordureNav {
     border-top: 3px solid blue;
     
+    
 }
 
-.bordureNav:hover > a {
+.bordureNav23:hover > a {
     border-top: 3px solid transparent;
     cursor: pointer;
     
@@ -312,17 +319,34 @@ height: 50px;
 
 /* Hébergements à Marseille */
 
+.hebt {
+    margin-bottom: 20px;
+}
+
+.hebt {
+    margin-bottom: 20px;
+}
+
+.heberg {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.paddingpage {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
 .contenerHebergements {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: rgb(240, 238, 238);
-    border-radius: 20px;
-    border: 5px solid transparent;
-    box-shadow: 0px 0px 6px 0px #0000002e;
-    grid-gap: 30px;
     padding: 0 0 0 0;  
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+
+    
 }
 
 .lacasedemarseille {
@@ -330,7 +354,7 @@ height: 50px;
 	padding-right: 7px;
 	padding-top: 7px;
 	width: 100%;
-	height: 210px;
+	height: 182px;
 	background-color: white;
 	border-radius: 20px 20px 20px;
 	object-fit: cover;
@@ -342,9 +366,14 @@ height: 50px;
 
 .lacasedemarseille .casedetexte {
     width: 100%;
-    height: 95px;
-    border-radius: 20px 0 0 15px;
-    margin: auto;
+    height: 90px;
+    
+    
+}
+
+.casedetexte > h3, .casedetexte > p, .casedetexte > div {
+    margin-top: 8px;
+
 }
 
 
@@ -356,21 +385,21 @@ height: 50px;
 
 .contenerHebergements a{
     flex-basis: 31%;
-
+    margin-bottom: 22px;
 }
 
 
 .groupeA {
     display: flex;
     width: 100%;
-    padding-right: 20px;
-    border-radius: 15px 15px; 0 0;
+    justify-content: space-between;
+
     
 }
 
 .bloc {
     background-color: rgb(240, 238, 238) ;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 80px;
     
 }
@@ -397,11 +426,11 @@ height: 50px;
 }
 
 .blocHebergements {
-    width: 70%;
+    width: 65%;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px  
-    
+       
 }
 
 .imgHebergements1 {
@@ -461,8 +490,6 @@ height: 50px;
     height: 120px;
     border-radius: 15px 15px 0 0;
 
-    
-
 }
 
 
@@ -485,7 +512,16 @@ height: 50px;
     padding: 7px 0 7px 7px;
     box-shadow: 0px 0px 6px 0px #0000002e;
     margin-bottom: 40px;
+
+   
 }
+
+.titre_h2-et-icon {
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+
 
 .cubePopulaires:hover {
     cursor: pointer;
@@ -500,27 +536,34 @@ height: 50px;
     width: 150px;
     margin-right: 20px;
     margin-bottom: 150px;
+    
 
 }
 
 .blocPopulaires {
-    margin-left: 2%;
     border-radius: 20px 0 0 15px;
-    object-fit: cover;
     padding-right: 20px;
     padding-left: 20px;
-    width: 28%;
+    width: 25%;
     border-radius: 10px;
-    display: block;
     margin-bottom: 80px;
-  
+    
 }
 
+
+
 .les-plus-populaires-img {
-   max-height: 135px;
+   max-height: 140px;
    border-radius: 20px 0 0 15px;
    object-fit: cover;
 
+}
+
+.text-de-case {
+    width: 100%;
+    height: 95px;
+    border-radius: 20px 0 0 15px;
+    margin: auto;
 }
 
 
@@ -588,7 +631,7 @@ height: 50px;
 
 .bloc2 img {
     width: 100%;
-    height: 100px;
+    height: 150px;
     border-radius: 20px 20px 0 0px;
     object-fit: cover;  
     object-position: 60% 80%;
@@ -615,6 +658,8 @@ height: 50px;
 .ilesdufrioul {
     margin-bottom: 40px;
     display:block;
+    margin-top: 40px;
+    
 }
 
 .ilesdufrioul:hover {
@@ -712,12 +757,14 @@ height: 50px;
     border-radius: 20px 20px 0 0px;
     object-fit: cover;
 
-    }
+}
     
 
 
 .sectionactivite figcaption {
-    padding-left: 5px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
     border-radius: 0 0 20px 20px;
     background-color: white;
     width: 100%;
@@ -736,6 +783,7 @@ height: 50px;
     margin-top: 40px;
     background-color: rgb(240, 238, 238) ;
     margin-left: 10px;
+    
     
 }
 
