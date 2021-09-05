@@ -511,13 +511,9 @@ height: 50px;
 }
 
 
-.blocPopulaire2 {
-    margin-bottom: 20px;
-}
-
 .cubeDetailsPolulaires {
-    width: 60px;
-    padding-left: 5%;
+    width: 40%;
+    padding-left: ;
 }
 
 .cubePopulaires {
@@ -546,14 +542,15 @@ height: 50px;
 .cubePopulaires:hover {
     cursor: pointer;
     transform: scale(1.05);
+    height: auto;
 }
 
 .les-plus-populaires-img img {
     border-radius: 20px 0 0 15px;
-    min-width: 80px;
+    min-width: 10px;
     height: 135px;
     object-fit: cover;
-    width: 150px;
+    width: 120px;
     margin-right: 20px;
     margin-bottom: 150px;
     
@@ -563,7 +560,7 @@ height: 50px;
     border-radius: 20px 0 0 15px;
     padding-right: 20px;
     padding-left: 20px;
-    width: 30%;
+    width: 28%;
     border-radius: 10px;
     margin-bottom: 80px;
     
@@ -575,6 +572,7 @@ height: 50px;
    max-height: 140px;
    border-radius: 20px 0 0 15px;
    object-fit: cover;
+
 
 }
 
