@@ -885,3 +885,28 @@ height: 50px;
    
 }
 
+    
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+.blocHebergements {
+    width: 100%;
+    background-color: white;
+}
+
+
+.groupeA {
+    flex-direction: column;
+}
+.blocPopulaires {
+    width: 100%;
+
+}
+
+.contenerHebergements a {
+    flex-basis: 100%;
+    
+    margin-right: 0px;
+}
+
+}
