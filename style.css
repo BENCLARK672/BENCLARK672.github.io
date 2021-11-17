@@ -848,7 +848,7 @@ height: 50px;
     height: 200px;
     margin-top: 40px;
     background-color: rgb(240, 238, 238) ;
-    margin-left: 10px;
+    
 }
 
 .haut3 {
@@ -1001,7 +1001,7 @@ height: 50px;
 
 
 .footer {
-    height: 100%;
+    height: auto;
     flex-direction: column;
 }
 
@@ -1012,12 +1012,12 @@ height: 50px;
 }
 
 .footer {
-    width: 380px;
+    width: 100%;
     
 }
 
 .haut3 {
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 .sectionactivite figcaption {
