@@ -1082,6 +1082,29 @@ height: 50px;
     padding-right: 20px;
 }
 
+.register {
+ position:absolute;
+ right: 0px;
+ top: 0px;
+
+}
+
+#logo p{
+    position:absolute;
+    left: 10px;
+    top: 10px;
+
+}
+.sizeLiens {
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.hebt {
+    margin-top: 30px;
+}
+
 
 
 
